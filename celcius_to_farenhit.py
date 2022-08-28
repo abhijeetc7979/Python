@@ -11,3 +11,8 @@ print(ctof(c))
 # f = (c * 1.8) + 32
 #
 # print(f)
+
+def ftoc(f):
+    return (f-32)/1.8
+f= int(input('temperature in Fareinheight:'))
+print(ftoc(f))
