@@ -1,8 +1,8 @@
-num = int(input('Enter up to what number you want list of even numbers: - '))
+num = int(input("Enter up to what number you want list of even numbers: - "))
 even_list = []
 odd_list = []
 prime_list = []
-for i in range(1, num+1):
+for i in range(1, num + 1):
     if i % 2 == 0:
         even_list.append(i)
     else:
@@ -10,7 +10,7 @@ for i in range(1, num+1):
 
 for num in range(2, num):
     if num > 1:
-        for i in range (2,num):
+        for i in range(2, num):
             if (num % i) == 0:
                 break
         else:
